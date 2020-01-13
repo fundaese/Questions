@@ -7,12 +7,13 @@
     android:layout_height="wrap_content">
 
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:padding="8dp"
         android:background="#ffffff"
         android:id="@+id/popup_user_image"
         android:layout_width="48dp"
-        android:layout_height="0dp"
+        android:layout_height="48dp"
         app:layout_constraintBottom_toTopOf="@+id/popup_description"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/popup_title"

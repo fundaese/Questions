@@ -77,6 +77,7 @@ public class Tab1 extends Fragment {
         postRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference("Posts");
+
         return view;
     }
 
@@ -147,6 +148,7 @@ public class Tab1 extends Fragment {
         popAddPost.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         popAddPost.getWindow().setLayout(Toolbar.LayoutParams.MATCH_PARENT,Toolbar.LayoutParams.WRAP_CONTENT);
         popAddPost.getWindow().getAttributes().gravity = Gravity.TOP;
+        popAddPost.setCanceledOnTouchOutside(false);
 
         // ini popup widgets
         popupUserImage = popAddPost.findViewById(R.id.popup_user_image);
@@ -277,4 +279,6 @@ public class Tab1 extends Fragment {
     private void showMessage(String message) {
         Toast.makeText(getContext(),message,Toast.LENGTH_LONG).show();
     }
+
+
 }
