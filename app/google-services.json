@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1080618561689",
+    "firebase_url": "https://qualityquestion-ec883.firebaseio.com",
+    "project_id": "qualityquestion-ec883",
+    "storage_bucket": "qualityquestion-ec883.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080618561689:android:8e10b40cdbd1278b3bc808",
+        "android_client_info": {
+          "package_name": "com.example.qualityquestion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080618561689-cd9huuseron2bqksfjt8umuot7lkfous.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlQBDBD_jrTb4mijbAdm5ky5UBom1zAig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080618561689-cd9huuseron2bqksfjt8umuot7lkfous.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
